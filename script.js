@@ -11,10 +11,10 @@ const SITE_CONFIG = {
 
   // Paste your direct image URL here.
   // Example: https://your-domain.com/favicon.png
-  favicon: "PASTE_YOUR_FAVICON_IMAGE_URL_HERE",
+  favicon: "https://i.imgur.com/QKiFGbS.png",
 
   // Portrait path relative to the website root.
-  portrait: "images/leila-portrait.jpg",
+  portrait: "https://i.imgur.com/yCt1rTo.png",
 
   email: "leila.t.daleon@gmail.com",
   linkedin: "",
@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Favicon
   if (
     SITE_CONFIG.favicon &&
-    !SITE_CONFIG.favicon.includes("https://i.imgur.com/QKiFGbS.png")
+    !SITE_CONFIG.favicon.includes("PASTE_YOUR_")
   ) {
     const favicon = document.getElementById("site-favicon");
     if (favicon) {
