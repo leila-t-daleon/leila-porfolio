@@ -67,8 +67,8 @@ const PROJECTS = [
       "Website page planning, brand storytelling, and responsive design for a clear browsing experience.",
     tags: ["Web Design", "Content"],
     theme: "sage-bg",
-    image: "",
-    link: "#contact",
+    image: "https://i.imgur.com/aH2cr21.png",
+    link: "https://isonfamperfumes.github.io/isonfam-premium/index.html",
     linkText: "Discuss this project"
   },
   {
