@@ -18,7 +18,7 @@ const SITE_CONFIG = {
 
   email: "leila.t.daleon@gmail.com",
   linkedin: "",
-  resume: "",
+  resume: "https://leila-td-2026.tiiny.site",
 
   colors: {
     primary: "#350C5C",
