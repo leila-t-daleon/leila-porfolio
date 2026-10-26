@@ -37,7 +37,7 @@ body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Merriweather";
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
 }
