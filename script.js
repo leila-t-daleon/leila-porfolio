@@ -69,7 +69,7 @@ const PROJECTS = [
     theme: "sage-bg",
     image: "https://i.imgur.com/aH2cr21.png",
     link: "https://isonfamperfumes.github.io/isonfam-premium/index.html",
-    linkText: "Discuss this project"
+    linkText: "Visit the site"
   },
   {
     number: "04",
