@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#350C5C">
-  <meta name="description" content="Leila Therese Daleon — Marketing & E-Commerce Specialist.">
+  <meta name="description" content="Portfolio of Leila Therese Daleon, Marketing & E-Commerce Specialist.">
+
   <title>Leila Therese Daleon | Portfolio</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,35 +14,32 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
+  <link id="site-favicon" rel="icon" href="data:,">
 
-<!-- Favicon -->
-<link rel="icon" href="https://i.imgur.com/QKiFGbS.png" type="image/png">
-
-
+  <script src="script.js" defer></script>
 </head>
 
 <body>
-
   <header class="site-header">
-    <nav class="nav wrap">
+    <nav class="nav wrap" aria-label="Main navigation">
       <a class="brand" href="#home">LEILA DALEON<span>.</span></a>
 
       <button class="menu-toggle" id="menuToggle"
-        aria-expanded="false" aria-controls="navLinks">
-        Menu ☰
+        aria-expanded="false" aria-controls="navLinks"
+        aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
       </button>
 
       <div class="nav-links" id="navLinks">
         <a href="#work">Work</a>
         <a href="#about">About</a>
         <a href="#approach">Approach</a>
-        <a class="nav-contact" href="#contact">Contact me ↗</a>
+        <a class="nav-contact" href="#contact">Let's connect ↗</a>
       </div>
     </nav>
   </header>
 
   <main>
-
     <section class="hero wrap" id="home">
       <div class="hero-copy">
         <p class="eyebrow">Marketing · E-commerce · Creative Systems</p>
@@ -49,18 +47,14 @@
         <h1>Making ideas <span>work, look good,</span> and grow.</h1>
 
         <p class="intro">
-          I'm Leila Therese Daleon, a Marketing &amp; E-Commerce
-          Specialist who combines creative thinking, digital commerce,
-          and practical systems to turn ideas into meaningful work.
+          I'm Leila Therese Daleon, a Marketing &amp; E-Commerce Specialist
+          who brings together creative thinking, digital commerce, and
+          practical systems to turn ideas into meaningful work.
         </p>
 
         <div class="hero-actions">
-          <a class="button button-primary" href="#work">
-            Explore my work ↗
-          </a>
-          <a class="button button-secondary" href="#contact">
-            Let's connect
-          </a>
+          <a class="button button-primary" href="#work">Explore my work ↗</a>
+          <a class="button button-secondary" href="#contact">Let's connect</a>
         </div>
 
         <p class="availability">
@@ -74,13 +68,14 @@
 
         <img
           class="hero-photo"
-          src="https://i.imgur.com/arBnSsQ.png"
+          data-site-portrait
+          src="images/leila-portrait.jpg"
           alt="Professional portrait of Leila Therese Daleon"
         >
 
         <div class="photo-caption">
-          <strong>Leila Therese Daleon</strong>
-          <span>Creative thinking · Practical results</span>
+          <strong data-site-name>Leila Therese Daleon</strong>
+          <span data-site-title>Marketing &amp; E-Commerce Specialist</span>
         </div>
       </div>
     </section>
@@ -102,8 +97,8 @@
           <div class="icon-tile">↗</div>
           <h3>E-commerce Management</h3>
           <p>
-            Online store maintenance, product listings, campaign
-            preparation, live-selling support, and platform coordination.
+            Online store maintenance, product listings, marketplace
+            coordination, campaign preparation, and live-selling support.
           </p>
         </article>
 
@@ -134,114 +129,19 @@
           <h2>Projects with purpose.</h2>
         </div>
         <p>
-          A selection of projects demonstrating my creative,
-          operational, and problem-solving skills.
+          A selection of projects showcasing my creative, operational,
+          and problem-solving skills.
         </p>
       </div>
 
-      <div class="project-grid">
-
-        <article class="project-card">
-          <div class="project-visual lavender">
-            <div class="mock-window">
-              <div class="mock-bar"><i></i><i></i><i></i></div>
-              <div class="mock-content">
-                <div class="mock-image"></div>
-                <div class="mock-lines"><i></i><i></i><i></i></div>
-              </div>
-            </div>
-            <span>01 / Digital commerce</span>
-          </div>
-          <div class="project-info">
-            <div class="tags">
-              <span>E-commerce</span><span>Operations</span>
-            </div>
-            <h3>Online Store &amp; Campaign Operations</h3>
-            <p>
-              Storefront updates, product listings, campaign preparation,
-              and live-selling support across online marketplaces.
-            </p>
-            <a class="project-link" href="#contact">Discuss this project ↗</a>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-visual peach-bg">
-            <div class="mock-window">
-              <div class="mock-bar"><i></i><i></i><i></i></div>
-              <div class="mock-content">
-                <div class="mock-image product"></div>
-                <div class="mock-lines"><i></i><i></i><i></i></div>
-              </div>
-            </div>
-            <span>02 / Brand experience</span>
-          </div>
-          <div class="project-info">
-            <div class="tags">
-              <span>Branding</span><span>Packaging</span>
-            </div>
-            <h3>Product Branding &amp; Visual Direction</h3>
-            <p>
-              Visual concepts for product labels, packaging,
-              promotional materials, and brand communication.
-            </p>
-            <a class="project-link" href="#contact">Discuss this project ↗</a>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-visual sage-bg">
-            <div class="mock-window">
-              <div class="mock-bar"><i></i><i></i><i></i></div>
-              <div class="mock-content">
-                <div class="mock-image"></div>
-                <div class="mock-lines"><i></i><i></i><i></i></div>
-              </div>
-            </div>
-            <span>03 / Digital presence</span>
-          </div>
-          <div class="project-info">
-            <div class="tags">
-              <span>Web Design</span><span>Content</span>
-            </div>
-            <h3>Website Structure &amp; Content</h3>
-            <p>
-              Website page planning, brand storytelling, and
-              responsive design for a clear browsing experience.
-            </p>
-            <a class="project-link" href="#contact">Discuss this project ↗</a>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-visual blue-bg">
-            <div class="mock-window">
-              <div class="mock-bar"><i></i><i></i><i></i></div>
-              <div class="mock-content">
-                <div class="mock-image product"></div>
-                <div class="mock-lines"><i></i><i></i><i></i></div>
-              </div>
-            </div>
-            <span>04 / Workflow tools</span>
-          </div>
-          <div class="project-info">
-            <div class="tags">
-              <span>Google Sheets</span><span>Automation</span>
-            </div>
-            <h3>Business Workflow &amp; Inventory Tools</h3>
-            <p>
-              Spreadsheet-based tools and workflow planning to
-              organize information and simplify routine processes.
-            </p>
-            <a class="project-link" href="#contact">Discuss this project ↗</a>
-          </div>
-        </article>
-
+      <div class="project-grid" id="projectGrid">
+        <p class="loading-projects">Loading projects...</p>
       </div>
 
       <p class="editing-note">
-        Replace the sample project previews with screenshots of your
-        actual work. Share only work you have permission to publish.
+        Project previews are starting examples. Replace them with real
+        screenshots and verified project details before sharing publicly.
+        Only publish work you have permission to show.
       </p>
     </section>
 
@@ -296,8 +196,8 @@
           <h2>From first idea to final detail.</h2>
         </div>
         <p>
-          A flexible process keeps the goal clear while allowing
-          room for creative exploration and practical constraints.
+          A flexible process keeps the goal clear while allowing room
+          for creative exploration and practical constraints.
         </p>
       </div>
 
@@ -307,16 +207,19 @@
           <h3>Start with the goal</h3>
           <p>Clarify the audience, problem, and desired outcome.</p>
         </article>
+
         <article>
           <span>02 / PLAN</span>
           <h3>Build the structure</h3>
           <p>Organize content, workflow, priorities, and deliverables.</p>
         </article>
+
         <article>
           <span>03 / CREATE</span>
           <h3>Make it tangible</h3>
           <p>Develop the design, content, store updates, or system.</p>
         </article>
+
         <article>
           <span>04 / REFINE</span>
           <h3>Review and improve</h3>
@@ -335,38 +238,25 @@
             freelance projects, and creative collaborations.
           </p>
         </div>
-        <a class="button contact-button"
-           href="mailto:leila.t.daleon@gmail.com">Email me ↗</a>
+
+        <div class="contact-actions">
+          <a class="button contact-button" data-site-email href="#">
+            Email me ↗
+          </a>
+          <a class="social-link" data-site-linkedin href="#" hidden
+             target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a class="social-link" data-site-resume href="#" hidden
+             target="_blank" rel="noopener noreferrer">View résumé ↗</a>
+        </div>
       </div>
     </section>
-
   </main>
 
   <footer>
     <div class="footer-inner wrap">
-      <span>© <span id="year"></span> Leila Therese Daleon.</span>
-      <div><a href="#home">Back to top ↑</a></div>
+      <span>© <span id="year"></span> <span data-site-name>Leila Therese Daleon</span>.</span>
+      <a href="#home">Back to top ↑</a>
     </div>
   </footer>
-
-  <script>
-    const menuToggle = document.getElementById("menuToggle");
-    const navLinks = document.getElementById("navLinks");
-
-    menuToggle.addEventListener("click", () => {
-      const opened = navLinks.classList.toggle("open");
-      menuToggle.setAttribute("aria-expanded", String(opened));
-    });
-
-    navLinks.querySelectorAll("a").forEach(link => {
-      link.addEventListener("click", () => {
-        navLinks.classList.remove("open");
-        menuToggle.setAttribute("aria-expanded", "false");
-      });
-    });
-
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
-
 </body>
 </html>
