@@ -16,7 +16,7 @@ const SITE_CONFIG = {
   // Portrait path relative to the website root.
   portrait: "images/leila-portrait.jpg",
 
-  email: "YOUR_EMAIL@example.com",
+  email: "leila.t.daleon@gmail.com",
   linkedin: "",
   resume: "",
 
@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Favicon
   if (
     SITE_CONFIG.favicon &&
-    !SITE_CONFIG.favicon.includes("PASTE_YOUR_")
+    !SITE_CONFIG.favicon.includes("https://i.imgur.com/QKiFGbS.png")
   ) {
     const favicon = document.getElementById("site-favicon");
     if (favicon) {
