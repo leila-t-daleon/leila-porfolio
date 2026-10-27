@@ -55,7 +55,7 @@ const PROJECTS = [
       "Visual concepts for product labels, packaging, promotional materials, and consistent brand communication.",
     tags: ["Branding", "Packaging"],
     theme: "peach-bg",
-    image: "https://i.imgur.com/bj04jjz.jpeg",
+    image: "https://i.imgur.com/bj04jjz.png",
     link: "#contact",
     linkText: "Discuss this project"
   },
