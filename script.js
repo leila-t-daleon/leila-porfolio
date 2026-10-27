@@ -79,7 +79,7 @@ const PROJECTS = [
       "Spreadsheet-based tools and workflow planning to organize information and simplify routine processes.",
     tags: ["Google Sheets", "Automation"],
     theme: "blue-bg",
-    image: "",
+    image: "https://i.imgur.com/0XUFaCu.png",
     link: "#contact",
     linkText: "Discuss this project"
   }
