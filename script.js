@@ -68,8 +68,8 @@ const PROJECTS = [
     tags: ["Web Design", "Content"],
     theme: "sage-bg",
     image: "https://i.imgur.com/aH2cr21.png",
-    link: "https://isonfamperfumes.github.io/isonfam-premium/index.html",
-    linkText: "Visit the site"
+    link: " ",
+    linkText: "Discuss this project"
   },
   {
     number: "04",
