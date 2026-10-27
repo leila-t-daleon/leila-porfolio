@@ -67,7 +67,7 @@ const PROJECTS = [
       "Website page planning, brand storytelling, and responsive design for a clear browsing experience.",
     tags: ["Web Design", "Content"],
     theme: "sage-bg",
-    image: "https://i.imgur.com/aH2cr21.png",
+    image: "https://i.imgur.com/6154Tav.png",
     link: " ",
     linkText: "Discuss this project"
   },
