@@ -43,7 +43,7 @@ const PROJECTS = [
       "Storefront updates, product listings, campaign preparation, and live-selling support across online marketplaces.",
     tags: ["E-commerce", "Operations"],
     theme: "lavender",
-    image: "",
+    image: "https://i.imgur.com/uwqQaaH.png",
     link: "#contact",
     linkText: "Discuss this project"
   },
